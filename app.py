@@ -12,7 +12,7 @@ from io import StringIO
 
 # ===================== 页面基础配置 =====================
 st.set_page_config(
-    page_title="大学生租房决策评估工具-这房到底值不值得租？",
+    page_title="大学生租房决策评估工具",
     layout="wide",
     initial_sidebar_state="expanded"
 )
