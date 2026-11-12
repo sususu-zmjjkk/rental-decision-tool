@@ -12,7 +12,7 @@ from io import StringIO
 
 # ===================== 页面基础配置 =====================
 st.set_page_config(
-    page_title="这房到底值不值得租？",
+    page_title="大学生租房决策评估工具-这房到底值不值得租？",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -60,7 +60,7 @@ def calc_channel_score(item_dict):
 menu = st.sidebar.radio(
     "📋 工具导航（开题报告三大模块）",
     ["🏠 首页说明",
-     "⭐Part I｜渠道&房源可信度评分卡",
+     "⭐Part I｜渠道与房源可信度评分卡",
      "💰Part II｜首年隐性成本计算器",
      "🧠Part III｜决策偏差自查",
      "📤导出本次全部评估记录",
